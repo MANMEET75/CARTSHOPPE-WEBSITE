@@ -1,1 +1,1 @@
-<img src="cartShoppeSampleUI.gif">
+<img src="cartShoppeSampleUI.gif" width="100%">
