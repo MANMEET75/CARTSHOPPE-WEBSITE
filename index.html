@@ -1,0 +1,958 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/afcb52252c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+
+    <title>CartShopee</title>
+
+    <!-- Favicon -->
+    <link href="assets/img/cart.ico" rel="icon">
+
+
+    <!-- Essential Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <script type='text/javascript' src=''></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript' src=''></script>
+
+
+
+
+
+
+    <!-- Template CSS -->
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <section id="home">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home">CartShoppe</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+
+
+
+
+
+
+
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">FEATURES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#offers">OFFERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#prices">PRICING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#partners">PARTNERS</a>
+                        </li>
+
+
+                    </ul>
+
+                    <!-- Vertically centered scrollable modal -->
+                    <!-- Button trigger modal -->
+
+                    <button type="button" class="btn btn-dark MyCartBtn" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal1"><i class="fa fa-shopping-cart cart-icon"></i>
+                        My Cart</button>
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <!-- <h1 class="modal-title fs-3 " id="ModalLabelMyCart">My Cart</h1> -->
+                                    
+
+                                    
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body1">
+                                    <img src="assets/img/myCartImage.jpg" alt="" id="myCartPopUpImage">
+                                    <h4 style="text-align: center;">You don't have any items in your cart</h4>
+                                    <p style="text-align: center;">Your favourite items are just a click away</p>
+                                    <button class="btn btn-warning GoForShoppingBtn"><i
+                                            class="fas fa-shopping-cart"></i> Go For Shopping</button>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal"
+                                        style="border: solid #000 1px;">Close</button>
+                                    <button type="button" class="btn btn-warning" style="border: solid #000 1px;">Save
+                                        changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <button type="button" class="btn btn-dark loginBtn" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal2"><i class="fas fa-sign-in-alt login-icon"></i>
+                        Login</button>
+
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title " id="phoneNumberTextPopUp">Phone Number Verification</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body" style="background-color: #F5F5F5">
+                                    <!-- <img src="assets/img/myCartImage.jpg" alt="" class="myCartPopUpImage2"> -->
+                                    <h6 style="text-align: center;">Enter Your Contact Number to Sign Up/Login
+                                    </h6>
+                                    <center>
+                                        <form class="phoneNumberForm">
+                                            <div class="mb-3">
+                                                <input type="text" class="form-control" id="phoneNumberInput"
+                                                    placeholder="+91-" aria-describedby="emailHelp">
+                                            </div>
+                                            <button class="btn btn-warning NextBtn" type="submit">Next</button>
+
+                                        </form>
+                                        <br>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-bs-dismiss="modal"
+                                                style="border: solid #000 1px;">Close</button>
+                                            <button type="button" class="btn btn-warning"
+                                                style="border: solid #000 1px;">Save
+                                                changes</button>
+                                        </div>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- </div> -->
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+        </nav>
+
+        <div class="wrapper">
+            <div class="left-section">
+                <div class="left-section-content">
+                    <h1 class="ml6">
+                        <span class="text-wrapper">
+                            <span class="letters">Get Your Order in 15 Mins</span>
+                        </span>
+                    </h1>
+                    <p><i class="fa-brands fa-google-pay"></i> is also accepted</p>
+
+
+                    <button type="button" class="btn btn-dark">ORDER NOW</button>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="right-section-content">
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <br>
+        <div class="row middle-container d-flex justify-content-center features">
+            <div class="col-lg-3">
+                <h3><i class="fas fa-user-friends"></i><br>Easy to use.</h3>
+                <p class="fontsmiddle">so easy to use even your younger child can use it.</p>
+            </div>
+            <div class="col-lg-3">
+                <h3><i class="far fa-thumbs-up"></i><br>Guaranteed to work.</h3>
+                <p class="fontsmiddle">if you're not satisfed then we 're not satisfied.</p>
+            </div>
+
+            <div class="col-lg-3">
+                <h3><i class="fas fa-trophy"></i><br>Feel the Quality.</h3>
+                <p class="fontsmiddle">Up to date with modern trends and features.</p>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <section id="offers">
+        <img src="assets/img/offerTag.png" alt="offerTag" class="offerTag">
+        <div class="offers">
+
+            <h1 class="Heading"></h1>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card" id="offersCard">
+                            <img src="assets/img/offer1.png" class="card-img-top" alt="Product 1">
+                            <div class="card-body" id="offerTextBox1">
+                                <h5 class="card-title">Fruitful Basket</h5>
+                                <p class="card-text">Our Fruitful Basket is filled with a variety of fresh, seasonal
+                                    fruits that are handpicked to ensure the best quality.</p>
+                                <p class="card-text"><strong>Price: $19.99</strong></p>
+                                <a href="#" class="btn btn-warning">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card" id="offersCard">
+                            <img src="assets/img/offer2.png" class="card-img-top" alt="Product 2">
+                            <div class="card-body" id="offerTextBox2">
+                                <h5 class="card-title">Desert Bloom Perfumes</h5>
+                                <p class="card-text">Be the center of attention with our long-lasting and distinctive
+                                    perfumes.Experience the magic of our unique blends and captivate everyone around
+                                    you.</p>
+                                <p class="card-text"><strong>Price: $29.99</strong></p>
+                                <a href="#" class="btn btn-warning">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card" id="offersCard">
+                            <img src="assets/img/offer3.png" class="card-img-top" alt="Product 3">
+                            <div class="card-body" id="offerTextBox3">
+                                <h5 class="card-title">Soft White Wheat</h5>
+                                <p class="card-text">Our wheat is the foundation of a healthy diet, providing essential
+                                    nutrients and energy.Taste the difference with our premium wheat, grown with care
+                                    and attention to detail.</p>
+                                <p class="card-text"><strong>Price: $39.99</strong></p>
+                                <a href="#" class="btn btn-warning">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+    </section>
+
+    <div class="AddToCard">
+        <i class="fa-sharp fa-5x fa-solid fa-cart-plus"></i>
+
+        <!-- adding button and heading to show the digits -->
+        <!--increment() and decrement() functions on button click-->
+        <button onclick="increment()" class="PositiveBTN">+</button>
+        <p id="counting"></p>
+        <button onclick="decrement()" class="NegativeBTN">-</button>
+
+
+
+    </div>
+
+
+    <section id="prices">
+
+
+
+
+
+
+
+
+        <div class="firstCategory">
+            <h1 class="Heading"> Breads & Chicken</h1>
+
+            <a href="BreadsChicken.html" class="seeAllLink firstSeeAllLink">See All</a>
+            <div id="myCarousel" class="carousel slide container" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner w-100">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+
+
+                            <div class="card card-body" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal3" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-fullscreen">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <a href="#home" class="popUpNavBar">CartShopee</a>
+                                                <!-- <h1 class="modal-title fs-3 " id="ModalLabelMyCart">My Cart</h1> -->
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <!-- starting of body over here-->
+                                                <img class="img-fluid" src="assets/img/p1.png" id="ItemImagePopUp">
+                                                <div class="subContentOfPricePopUp">
+                                                    <h6 class="ItemName">Fresh White Bread</h6>
+                                                    <p class="timeToDeliverinPopUp"><i class="fas fa-stopwatch"></i>
+                                                        8 MINS</p>
+                                                    <hr class="hrLineInPopUp">
+                                                    <br>
+                                                    <p class="PiecesInPack">1 pack (32 pieces)</p>
+                                                    <p class="priceOfItemInPopUp">$15</p>
+                                                    <hr class="hrLineInPopUp">
+                                                    <button type="button" class="btn btn-dark" id="addBtnInPopUP">ADD</button>
+
+                                                    <h6 id="WhyShopPopUp">Why Shop From CartShopee?</h6>
+                                           
+                                                    <h1 class="ml3" id="m13"><i class="fas fa-layer-group"></i>&nbsp;Wide Range of Products<p id="subContentWhyShopUs">CartShoppe offers a vast range of products from various categories.</p></h1>                                                    
+                                                    <h1 class="ml3" id="m13"><i class="fas fa-tag"></i>&nbsp;Competitive Prices<p id="subContentWhyShopUs">CartShoppe offers competitive prices on its products, ensuring that you get the best value for your money.</p></h1>                         
+                                                    <h1 class="ml3" id="m13"><i class="fas fa-check-circle"></i>&nbsp;Quality Products<p id="subContentWhyShopUs">CartShoppe ensures that all its products are of high quality, ensuring customer satisfaction.</p></h1>
+                                                    <h1 class="ml3" id="m13"><i class="fas fa-shopping-cart"></i>&nbsp;Convenient Shopping<p id="subContentWhyShopUs">CartShoppe offers a convenient shopping experience, allowing you to shop from the comfort of your home.</p></h1>
+                                                    <h1 class="ml3" id="m13"><i class="fas fa-lock"></i>&nbsp;Secure Payment<p id="subContentWhyShopUs">CartShoppe offers secure payment options, ensuring that your transactions are safe and secure.</p></h1>
+                                                    <h1 class="ml3" id="m13"><i class="fas fa-headset"></i>&nbsp;Customer Support<p id="subContentWhyShopUs">CartShoppe offers excellent customer support, ensuring that your queries and concerns are addressed promptly.</p></h1>
+
+
+                                                </div>
+
+
+
+                                              <!-- ending of body over here -->
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal"
+                                                    style="border: solid #000 1px;">Close</button>
+                                                <!-- <button type="button" class="btn btn-warning"
+                                                    style="border: solid #000 1px;">Save
+                                                    changes</button> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                <p class="priceOfItems">$5</p>
+                                <img class="img-fluid" src="assets/img/p1.png">
+                                <h6 class="ItemName">Fresh White Bread</h6>
+                                <p class="ItemQuantity">400 g</p>
+
+
+                                <button type="button" class="btn btn-dark " id="AddBTN">ADD</button>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$15</p>
+                                <img class="img-fluid" src="assets/img/p2.png">
+                                <h6 class="ItemName">Table Brown Eggs 30 Pieces</h6>
+                                <p class="ItemQuantity">30 Pieces</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$10</p>
+                                <img class="img-fluid" src="assets/img/p3.png">
+                                <h6 class="ItemName">Britannia Brown Bread</h6>
+                                <p class="ItemQuantity">450 g</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$8</p>
+                                <img class="img-fluid" src="assets/img/p4.png">
+                                <h6 class="ItemName">English Oven White Bread</h6>
+                                <p class="ItemQuantity">500 g</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$10</p>
+                                <img class="img-fluid" src="assets/img/p5.png">
+                                <h6 class="ItemName">Harvest Gold 100% Atta Bread</h6>
+                                <p class="ItemQuantity">400 g</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$20</p>
+                                <img class="img-fluid" src="assets/img/p6.png">
+                                <h6 class="ItemName">Fresh Organic Boneless Chicken</h6>
+                                <p class="ItemQuantity">500 g</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$18</p>
+                                <img class="img-fluid" src="assets/img/p7.png">
+                                <h6 class="ItemName">Fresh Organic Chicken With Bones</h6>
+                                <p class="ItemQuantity">600 g</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$5</p>
+                                <img class="img-fluid" src="assets/img/p8.png">
+                                <h6 class="ItemName">Fresh Achari Boneless Chicken</h6>
+                                <p class="ItemQuantity">400 g</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" data-interval="false">
+                    <span class="carousel-control-prev-icon" aria-hidden="true" id="PreviousIconCaroPrices"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button> -->
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true" id="NextIconCaroPrices"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+        <div class="secondCategory">
+
+            <h1 class="Heading">Rices & Pulses</h1>
+            <a href="RicesPulses.html" class="seeAllLink">See All</a>
+            <div id="myCarousel1" class="carousel slide container" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner w-100">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$70</p>
+                                <img class="img-fluid" src="assets/img/secondprice1.png">
+                                <h6 class="ItemName">Tropical Sun Premium Basmati Rice</h6>
+                                <p class="ItemQuantity">20ml</p>
+            
+                                <button type="button" class="btn btn-dark " id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$20</p>
+                                <img class="img-fluid" src="assets/img/secondprice2.png">
+                                <h6 class="ItemName">India Gate Basmati Rice</h6>
+                                <p class="ItemQuantity">1kg</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$10</p>
+                                <img class="img-fluid" src="assets/img/secondprice3.png">
+                                <h6 class="ItemName">India Gate Jeera Rice</h6>
+                                <p class="ItemQuantity">1kg</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$8</p>
+                                <img class="img-fluid" src="assets/img/secondprice4.png">
+                                <h6 class="ItemName">Star Rice</h6>
+                                <p class="ItemQuantity">2kg</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$30</p>
+                                <img class="img-fluid" src="assets/img/secondprice5.png">
+                                <h6 class="ItemName">Laxmi Daily Feast Masoori Dal</h6>
+                                <p class="ItemQuantity">5kg</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$20</p>
+                                <img class="img-fluid" src="assets/img/secondprice6.png">
+                                <h6 class="ItemName">CJH Chana Dal</h6>
+                                <p class="ItemQuantity">500 g</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$5</p>
+                                <img class="img-fluid" src="assets/img/secondprice7.png">
+                                <h6 class="ItemName">Tata Sampann Chana Dal</h6>
+                                <p class="ItemQuantity">1kg</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$27</p>
+                                <img class="img-fluid" src="assets/img/secondprice8.png">
+                                <h6 class="ItemName">PulsesMan Unique Quality</h6>
+                                <p class="ItemQuantity">1kg</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true" id="PreviousIconCaroPrices"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button> -->
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel1" data-bs-slide="next" data-interval="false">
+                    <span class="carousel-control-next-icon" aria-hidden="true" id="NextIconCaroPrices"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+
+
+        <div class="fourthCategory">
+
+            <h1 class="Heading">Body Perfumes</h1>
+            <a href="BodyPerfumes.html" class="seeAllLink">See All</a>
+            <div id="myCarousel3" class="carousel slide container" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner w-100">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$5</p>
+                                <img class="img-fluid" src="assets/img/thirdprice1.png">
+                                <h6 class="ItemName">AXE Signature (Men)</h6>
+                                <p class="ItemQuantity">20 ml</p>
+            
+                                <button type="button" class="btn btn-dark " id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$15</p>
+                                <img class="img-fluid" src="assets/img/thirdprice2.png">
+                                <h6 class="ItemName">The Man Company Bleu (Unisex)</h6>
+                                <p class="ItemQuantity">20 ml</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$10</p>
+                                <img class="img-fluid" src="assets/img/thirdprice3.png">
+                                <h6 class="ItemName">Denver (Men)</h6>
+                                <p class="ItemQuantity">20 ml</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$8</p>
+                                <img class="img-fluid" src="assets/img/thirdprice4.png">
+                                <h6 class="ItemName">Fogg (Unisex)</h6>
+                                <p class="ItemQuantity">20 ml</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$10</p>
+                                <img class="img-fluid" src="assets/img/thirdprice5.png">
+                                <h6 class="ItemName">Fragrance Mist (Women)</h6>
+                                <p class="ItemQuantity">20 ml</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$20</p>
+                                <img class="img-fluid" src="assets/img/thirdprice6.png">
+                                <h6 class="ItemName">Coral Escape (Women)</h6>
+                                <p class="ItemQuantity">20 ml</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$5</p>
+                                <img class="img-fluid" src="assets/img/thirdprice7.png">
+                                <h6 class="ItemName">Neck Combo (Women)</h6>
+                                <p class="ItemQuantity">20 ml</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$5</p>
+                                <img class="img-fluid" src="assets/img/thirdprice8.png">
+                                <h6 class="ItemName">AXE Gold (men)</h6>
+                                <p class="ItemQuantity">20 ml</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true" id="PreviousIconCaroPrices"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button> -->
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel3" data-bs-slide="next" data-interval="false">
+                    <span class="carousel-control-next-icon" aria-hidden="true" id="NextIconCaroPrices"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+
+        <div class="lastCategory">
+
+            <h1 class="Heading">Cold Drinks & liquids</h1>
+            <a href="ColdDrinksLiquids.html" class="seeAllLink">See All</a>
+            <div id="myCarousel4" class="carousel slide container" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner w-100">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$3</p>
+                                <img class="img-fluid" src="assets/img/fourthprice1.png">
+                                <h6 class="ItemName">Thumps Up</h6>
+                                <p class="ItemQuantity">500ml</p>
+            
+                                <button type="button" class="btn btn-dark " id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$5</p>
+                                <img class="img-fluid" src="assets/img/fourthprice2.png">
+                                <h6 class="ItemName">Coca Cola</h6>
+                                <p class="ItemQuantity">500ml</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$2</p>
+                                <img class="img-fluid" src="assets/img/fourthprice4.png">
+                                <h6 class="ItemName">Mother Diary Chacch</h6>
+                                <p class="ItemQuantity">150ml</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$10</p>
+                                <img class="img-fluid" src="assets/img/fourthprice5.png">
+                                <h6 class="ItemName">Mother Diary Toned Milk</h6>
+                                <p class="ItemQuantity">500ml</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$20</p>
+                                <img class="img-fluid" src="assets/img/fourthprice6.png">
+                                <h6 class="ItemName">Mother Diary Doubled Toned Milk</h6>
+                                <p class="ItemQuantity">500ml</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$5</p>
+                                <img class="img-fluid" src="assets/img/fourthprice7.png">
+                                <h6 class="ItemName">Mother Diary Cow Milk</h6>
+                                <p class="ItemQuantity">500ml</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$5</p>
+                                <img class="img-fluid" src="assets/img/fourthprice8.png">
+                                <h6 class="ItemName">Mother Diary Tadka Chach</h6>
+                                <p class="ItemQuantity">15ml</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <p class="priceOfItems">$5</p>
+                                <img class="img-fluid" src="assets/img/fourthprice8.png">
+                                <h6 class="ItemName">Fresh Achari Boneless Chicken</h6>
+                                <p class="ItemQuantity">400 g</p>
+                                <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true" id="PreviousIconCaroPrices"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button> -->
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel4" data-bs-slide="next" data-interval="false">
+                    <span class="carousel-control-next-icon" aria-hidden="true" id="NextIconCaroPrices"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+    <br>
+    <br><br>
+
+    <div class="QRCode">
+        <div class="column leftColumnQRCode">
+            <!-- add content for left column here -->
+            <p>Get the CartShoppe App</p>
+            <img src="assets/img/qrcode.png" alt="" id="qrcode">
+            <p>Scan QRCode to directly get the App</p>
+        </div>
+        <div class="column rightColumnQRCode">
+            <!-- add content for right column here -->
+            <img src="assets/img/mobile.jpg" alt="" id="mobileImg">
+        </div>
+    </div </div>
+
+
+    <section id="partners">
+
+        <div class="lastContainer">
+
+            <h1 class="Heading">Available Brands</h1>
+            <h4>Britannia, Harvest, Modern, Oroweat, Amul, La Americana, Alsafaa, Sahari, Silver Hills, Ultimate Grain,
+                Bell&Evans, Tropical Sun, India Gate, Star Rice, Laxmi, CJH, Tata, PulsesMan, MTR, RiceVilla, Double
+                Horse, Bengal Super, Daawat, Hinode, Batchelors, Induz, Nature Land, Axe, Man Company, Denver, Fogg,
+                Coral, Neck Combo, Lady Noir, Beardo, Engage, BLU, Zara, LaTrench, Armani, Wild Stone, Shanaya, Jimmy
+                Choo, Versace</h4>
+        </div>
+
+
+        <div class="lastContainer">
+            <h1 class="Heading">Payment Modes</h1>
+            <center>
+            <div class="bottomContainer">
+            <div class="row middle-container d-flex justify-content">
+                <div class="col-lg-3">
+                    <a href=""><img src="assets/img/pp1.png" alt="Image 1" class="paymentModes"></a>                </div>
+                <div class="col-lg-3">
+                    <a href=""><img src="assets/img/pp2.png" alt="Image 2" class="paymentModes"></a>
+                </div>
+    
+                <div class="col-lg-3">
+                    <a href=""><img src="assets/img/pp3.png" alt="Image 3" class="paymentModes"></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href=""><img src="assets/img/pp4.png" alt="Image 4" class="paymentModes"></a>
+                </div>
+                </center>
+             
+
+
+
+            </div>
+            </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <footer>
+
+
+
+        
+        <center>
+            <div class="footer-container">
+                <div class="footer-col">
+
+                    <h3 id="footerMainHeading">CartShoppe</h3>
+                    <h3 class="email"><i class="fa fa-envelope"></i> Email: <p class="emailText">samanmeet85@gmail.com</p></h3>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-1x fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fab fa-1x fa-telegram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-1x fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-1x fa-discord"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-secondCol">
+                    <h3>About Us</h3>
+                    <hr>
+                    <a href=""><h5>Privacy policy</h5></a>
+                    <a href=""><h5>FAQs</h5></a>
+                </div>
+                <div class="footer-secondCol">
+                    <h3>Contact us</h3>
+                    <hr>
+                    <a href=""><h5>Terms and conditions</h5></a>
+                </div>
+                <div class="footer-secondCol">
+                    <h3>Products</h3>
+                    <hr>
+                    <a href=""><h5>Breads & Chicken</h5></a>
+                    <a href=""><h5>Rice & Pulses</h5></a>
+                    <a href=""><h5>Body Perfumes</h5></a>
+                    <a href=""><h5>Cold Drinks & liquids</h5></a>
+                </div>
+            </div>
+        </center>
+        <div class="bottom-bar">
+            <img src="assets/img/iso.png" alt="">
+            <p>&copy; 2023 E-commerce website. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script type='text/javascript' src="assets/js/index.js"></script>
+</body>
+
+</html>

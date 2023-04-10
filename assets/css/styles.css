@@ -1,0 +1,1094 @@
+nav {
+    background-color: #F5A623;
+    height: 150px;
+
+}
+
+.seeAllHome {
+    position: relative;
+    top: 150px;
+    right: 550px;
+}
+
+/* Main heading */
+.navbar-brand {
+    position: relative;
+    top: 25px;
+    padding-left: 50px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+/* navbar items */
+.nav-item {
+    position: relative;
+    left: 215px;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 25px;
+}
+
+/* styling for buttons in navbar */
+.loginBtn {
+    position: relative;
+    right: 100px;
+    background-color: #F5A623;
+    font-weight: 600;
+    border: solid black;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+.MyCartBtn {
+    position: relative;
+    right: 100px;
+    background-color: #000;
+    font-weight: 600;
+    border: solid black;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+/* adding hover effect to mycart button */
+.MyCartBtn:hover {
+    color: #F5A623;
+
+
+}
+
+/* styling the cart icon in My cart button */
+.cart-icon {
+    color: #F5A623;
+    /* Green color */
+    font-size: 20px;
+    /* Icon size */
+}
+
+/* styling the cart icon in Login button */
+.login-icon {
+    color: #fff;
+    /* Green color */
+    font-size: 20px;
+    /* Icon size */
+}
+
+.navbarBtns {
+    position: relative;
+    left: 10px;
+    bottom: 30px;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+
+}
+
+.wrapper p {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+
+}
+
+.left-section {
+    text-align: center;
+    background-color: #F5A623;
+    width: 48%;
+
+
+}
+
+/* styling google play button over here */
+.fa-google-pay {
+    position: relative;
+    top: 9px;
+    font-size: 40px;
+    color: #1A73E8;
+
+}
+
+.right-section {
+    content: "";
+    position: relative;
+    background: #F5A623 url("../img/boy.png") top right no-repeat;
+    background-size: 920px 835px;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+
+}
+
+
+.left-section-content {
+    position: relative;
+    right: 80px;
+    margin: 220px;
+    width: 70%;
+}
+
+.left-section-content h1 {
+    font-size: 50px;
+}
+
+/* adding styles to the get order in 15 min over here */
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+
+.fa-user-friends {
+    font-size: 150px;
+    color: #F5A623;
+}
+
+.fa-thumbs-up {
+    font-size: 150px;
+    color: #F5A623;
+}
+
+.fa-trophy {
+    font-size: 150px;
+    color: #F5A623;
+}
+
+.features h3 {
+    font-weight: 900;
+    font-size: 2.4em;
+}
+
+.features p {
+    font-weight: 300;
+    line-height: 2.5rem;
+    font-size: 1.1em;
+    height: 500px;
+}
+
+.features {
+    position: relative;
+    width: 80%;
+    left: 210px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.offers {
+    height: 1000px;
+    background-color: #F5A623;
+}
+
+.thirdOfferImage {
+    position: relative;
+    left: 200px;
+}
+
+
+.carouselinner {
+    position: relative;
+    bottom: 250px;
+}
+
+
+.carouselcontrolprevicon {
+    position: relative;
+    bottom: 30px;
+    background-color: #000;
+    border-radius: 100%;
+}
+
+.carouselcontrolprev {
+    height: 730px;
+}
+
+.carouselcontrolnext {
+    height: 730px;
+}
+
+.carouselcontrolnexticon {
+    position: relative;
+    bottom: 30px;
+    background-color: #000;
+    border-radius: 100%;
+}
+
+
+/* adding styling to todayOFfers */
+
+.carouselitem h1 {
+    position: relative;
+    left: 1000px;
+    bottom: 900px;
+}
+
+.carouselitem {
+    height: 980px;
+
+}
+
+
+.ml3 {
+    width: 25%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3.2em;
+
+}
+
+.Heading {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 50px;
+    position: relative;
+    font-weight: 900;
+    top: 35px;
+    font-size: 3.3em;
+    width: 40%;
+}
+
+
+#card {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    perspective: 1000px;
+}
+
+
+
+
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #F5A623;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+
+.offerBrochure1 {
+    width: 490px;
+    height: 490px;
+
+
+}
+
+.offerBrochure2 {
+    width: 490px;
+    height: 490px;
+
+
+}
+
+.offerBrochure3 {
+    width: 490px;
+    height: 490px;
+
+
+}
+
+
+
+
+
+
+
+/* adding styling to the first price item over here using this css */
+
+
+
+#myCarousel {
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-start,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next,
+    .carousel-item-next:not(.carousel-item-start) {
+        transform: translateX(25%) !important;
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-item-prev:not(.carousel-item-end),
+    .active.carousel-item-start,
+    .carousel-item-prev:not(.carousel-item-end) {
+        transform: translateX(-25%) !important;
+    }
+
+    .carousel-item-next.carousel-item-start,
+    .active.carousel-item-end {
+        transform: translateX(0) !important;
+    }
+
+    .carousel-inner .carousel-item-prev,
+    .carousel-item-prev:not(.carousel-item-end) {
+        transform: translateX(-25%) !important;
+    }
+}
+
+
+
+
+#AddBTN {
+    position: relative;
+    left: 50%;
+    width: 50%;
+    background-color: #F5A623;
+    color: #000;
+    font-weight: 900;
+}
+
+#addBtnInPopUP{
+    position: relative;
+    left: 501px;
+    width: 50%;
+    background-color: #F5A623;
+    color: #000;
+    font-weight: 900;
+    bottom: 180px;
+
+
+}
+
+
+.card-body {
+    margin: 25px;
+}
+
+.card-body:hover {
+    border: solid 1px #F5A623;
+}
+
+#PreviousIconCaroPrices {
+    position: relative;
+    right: 63px;
+    background-color: #000;
+    border-radius: 100%;
+
+}
+
+
+#NextIconCaroPrices {
+
+    position: relative;
+    left: 63px;
+    background-color: #000;
+    border-radius: 100%;
+
+}
+
+.prices h1 {
+    position: relative;
+    left: 28px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+
+}
+
+
+.priceOfItems {
+    text-align: center;
+    background-color: #F5A623;
+    position: relative;
+    right: 17px;
+    font-weight: 500;
+    width: 30%;
+}
+
+/* name of the items in the price sections over here */
+.ItemName {
+
+
+    text-align: left;
+    font-size: 15px;
+}
+
+/* adding the quantity for the items over here */
+.ItemQuantity {
+
+    text-align: left;
+    font-size: 12px;
+    font-weight: 300;
+
+
+
+}
+
+#myCarousel2 {
+    height: 100px;
+}
+
+
+#offersCard {
+    height: 670px;
+}
+
+#offerTextBox1 {
+    position: relative;
+    bottom: 125px;
+
+}
+
+#offerTextBox2 {
+    position: relative;
+    bottom: 150px;
+
+}
+
+#offerTextBox3 {
+    position: relative;
+    bottom: 150px;
+
+}
+
+.offers a {
+    background-color: #F5A623;
+    font-weight: 700;
+    color: #000;
+    border: solid 1px #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.offerTag {
+    position: relative;
+    height: 320px;
+    top: 350px;
+    left: 1400px;
+    width: 19%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in;
+    z-index: 1;
+}
+
+.offerTag:hover {
+    transform: scale(1.4) rotate(5deg);
+    box-shadow: 0px 0px 20px black;
+}
+
+#features {
+    height: 150px;
+}
+
+.seeAllLink {
+    color: #F5A623;
+    font-size: 2rem;
+    font-weight: 800;
+    position: relative;
+    top: 10px;
+    left: 1500px;
+
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.BreadsChickenContainer {
+    margin: 150px;
+}
+
+
+.QRCode {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    /* adjust to fit your needs */
+}
+
+.column {
+    width: 50%;
+    height: 100%;
+    
+}
+
+.leftColumnQRCode {
+    background-color: #000;
+}
+
+
+#mobileImg {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.leftColumnQRCode p {
+    margin: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+#qrcode {
+    position: relative;
+    left: 330px;
+
+}
+
+
+
+.AddToCard {
+
+    position: relative;
+    top: 35px;
+    right: 50px;
+    text-align: right;
+    width: 12%;
+    height: 100px;
+
+}
+
+.AddToCard h5 {
+    position: relative;
+    top: 10px;
+    width: 5%;
+    left: 1815px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+
+.firstSeeAllLink {
+    position: relative;
+    top: 60px;
+}
+
+.AddToCard i:hover {
+    color: #F5A623;
+
+}
+
+
+#counting {
+    text-align: right;
+    width: 10%;
+    position: relative;
+    font-weight: 600;
+    left: 135px;
+    top: 35px;
+    font-size: 20px;
+}
+
+.PositiveBTN {
+    position: relative;
+    width: 50px;
+    top: 70px;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.PositiveBTN:hover {
+    background-color: #F5A623;
+    font-weight: 800;
+}
+
+.NegativeBTN {
+    position: relative;
+    width: 50px;
+    right: 100px;
+    bottom: 11px;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.NegativeBTN:hover {
+    background-color: #F5A623;
+    font-weight: 800;
+    color: #000;
+}
+
+
+
+.lastContainer h4 {
+    line-height: 3rem;
+    font-size: 32px;
+    font-weight: 300;
+    position: relative;
+    top: 55px;
+}
+
+.lastContainer h1 {
+    position: relative;
+    right: 49px;
+}
+
+.lastContainer {
+    position: relative;
+    bottom: 100px;
+    margin: 125px;
+    line-height: 3.5rem;
+}
+
+.bottomContainer {
+    display: inline-block;
+}
+
+.paymentModes {
+    height: 330px;
+    width: 327px;
+}
+
+
+
+.card-text {
+    font-weight: 300;
+    line-height: 1.6rem;
+}
+
+.copyrightText {
+    position: relative;
+    top: 280px;
+    left: 70px;
+    font-size: 20px;
+    width: 17%;
+}
+
+footer {
+    background-color: #000;
+    height: 500px;
+    color: #333;
+    font-size: 16px;
+    padding: 50px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.footer-col {
+    margin: 20px;
+    width: 30%;
+    position: relative;
+    left: 15px;
+    color: white;
+}
+
+.footer-col h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-col p {
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col li {
+    line-height: 1.5;
+}
+
+.social-icons {
+    display: flex;
+    position: relative;
+    right: 120px;
+    top: 15px;
+    width: 20%;
+}
+
+
+
+.fa-facebook {
+    color: #1A73E8;
+}
+
+
+.fa-instagram {
+    color: #ee3ad6;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-linkedin {
+    color: #0077B5;
+}
+
+.fa-map-marker {
+    color: #2ECC40;
+}
+
+.fa-phone {
+    color: #145e1d;
+}
+
+.fa-envelope {
+    color: #ffcd2a;
+}
+
+.fa-telegram{
+    color: #0088cc;
+}
+.fa-discord{
+    color: #7289da;
+}
+.fa-youtube{
+    color: #FF0000;
+}
+
+.social-icons li {
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #000;
+}
+
+.bottom-bar {
+    background-color: #000;
+    color: silver;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 81px;
+}
+
+
+#myCartPopUpImage {
+    height: 475px;
+    width: 490px;
+}
+
+.GoForShoppingBtn {
+    position: relative;
+    left: 150px;
+    font-weight: 500;
+    border: solid #000 1px;
+}
+
+
+
+#phoneNumberTextPopUp {
+    color: #000;
+    font-size: 25px;
+    position: relative;
+    left: 70px;
+}
+
+.phoneNumberForm {
+    width: 50%;
+}
+
+.NextBtn {
+    width: 100%;
+    border: solid #000 1px;
+}
+
+.subContentOfPricePopUp {
+    display: inline-block;
+    position: relative;
+    top: 270px;
+    
+}
+
+.subContentOfPricePopUp h6 {
+    font-size: 50px;
+    line-height: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+
+}
+.timeToDeliverinPopUp {
+    font-size: 15px;
+    line-height: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    left: 500px;
+    bottom: 190px;
+    width: 20%;
+    text-align: center;
+    background-color: #ddd;
+
+}
+.PiecesInPack {
+    font-size: 15px;
+    line-height: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    left: 500px;
+    bottom: 190px;
+    width: 50%;
+    color: grey;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.priceOfItemInPopUp{
+    font-size: 15px;
+    line-height: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    left: 500px;
+    bottom: 205px;
+    width: 50%;
+    color: black;
+    font-weight: 900;
+    text-align: left;
+
+}
+
+.hrLineInPopUp{
+    
+    font-size: 15px;
+    line-height: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    left: 500px;
+    bottom: 190px;
+    width: 100%;
+    color: black;
+    font-weight: 900;
+    text-align: left;
+}
+#WhyShopPopUp{
+    position: relative;
+    font-size: 32px;
+    font-weight: 600;
+
+    bottom: 140px;
+
+}
+
+#WhyImagesPopUp{
+    height: 10px;
+}
+
+.ml3 {
+
+    line-height: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    left: 500px;
+    bottom: 190px;
+    width: 50%;
+    font-weight: 300;
+    text-align: left;
+    
+    font-weight: 900;
+    font-size: 1.5em;
+  }
+#m13{
+    position: relative;
+    bottom:130px;
+    width: 100%;
+    font-weight: 300;
+}
+
+.modal-body img {
+    position: relative;
+    left: 180px;
+    bottom: 280px;
+    height: 680px;
+}
+
+
+.modal-header {
+    background-color: #F5A623;
+}
+
+.modal-header a {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    position: relative;
+    left: 40px;
+}
+
+
+#footerMainHeading{
+    position: relative;
+    font-size:60px;
+    right:15px;
+    font-weight: 700;
+}
+
+
+.bottom-bar img{
+    height: 200px;
+    position: relative;
+    right: 750px;
+    bottom: 100px;
+}
+
+.footer-secondCol{
+    color: white;
+    text-align: left;
+    position: relative;
+    right:90px;
+    top: 70px;
+
+}
+.footer-secondCol a{
+    color: white;
+
+}
+.footer-secondCol a:hover{
+    color: #F5A623;
+
+}
+
+.footer-secondCol hr{
+    color: #F5A623;
+
+}
+
+#partners{
+    height: 1000px;
+}
+
+.emailText{
+    display: inline;
+}
+.emailText:hover{
+    color: #F5A623;
+}
+
+
+.email{
+    position: relative;
+    right: 17px;
+}
+
+.fa-stopwatch{
+    color: #F5A623;
+}
+
+
+.fa-layer-group{
+    color: #F5A623;
+}
+.fa-tag{
+    color: #F5A623;
+}
+.fa-check-circle{
+    color: #F5A623;
+}
+.fa-shopping-cart{
+    color: #F5A623;
+}
+.fa-lock{
+    color: #F5A623;
+}
+.fa-headset{
+    color: #F5A623;
+}
+
+
+#subContentWhyShopUs{
+    font-size: 15px;
+    width:90%;
+    position: relative;
+    left: 35px;
+
+}
+.imgPopUp{
+    position: relative;
+    bottom: 500px;
+
+}

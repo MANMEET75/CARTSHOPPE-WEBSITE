@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/afcb52252c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+
+    <title>CartShopee</title>
+
+    <!-- Favicon
+    <link href="assets/img/cart.ico" rel="icon">
+
+
+    <!-- Essential Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <script type='text/javascript' src=''></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript' src=''></script>
+
+
+
+
+
+
+    <!-- Template CSS -->
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">CartShoppe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active seeAllHome" aria-current="page" href="index.html"><i class="fa-solid fa-house" style="color: #F5A623;"></i> Home</a>
+                    </li>
+
+
+                </ul>
+                <div class="navbarBtns">
+                    <button type="button" class="btn btn-dark loginBtn"><i class="fas fa-sign-in-alt login-icon"></i>
+                        Login</button>
+                    <button type="button" class="btn btn-dark MyCartBtn"><i class="fa fa-shopping-cart cart-icon"></i>
+                        My Cart</button>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <div class="BreadsChickenContainer">
+
+
+        <div class="row middle-container d-flex justify-content-center">
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice1.png">
+                    <h6 class="ItemName">AXE Signature (Men)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+
+                    <button type="button" class="btn btn-dark " id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$15</p>
+                    <img class="img-fluid" src="assets/img/thirdprice2.png">
+                    <h6 class="ItemName">The Man Company Bleu (Unisex)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$10</p>
+                    <img class="img-fluid" src="assets/img/thirdprice3.png">
+                    <h6 class="ItemName">Denver (Men)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$8</p>
+                    <img class="img-fluid" src="assets/img/thirdprice4.png">
+                    <h6 class="ItemName">Fogg (Unisex)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$10</p>
+                    <img class="img-fluid" src="assets/img/thirdprice5.png">
+                    <h6 class="ItemName">Fragrance Mist (Women)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$20</p>
+                    <img class="img-fluid" src="assets/img/thirdprice6.png">
+                    <h6 class="ItemName">Coral Escape (Women)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice7.png">
+                    <h6 class="ItemName">Neck Combo (Women)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice8.png">
+                    <h6 class="ItemName">AXE Gold (men)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice9.png">
+                    <h6 class="ItemName">LADY Noir (Women)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice10.png">
+                    <h6 class="ItemName">Man Company Musk (Men)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice11.png">
+                    <h6 class="ItemName">Guerlain (Women)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice12.png">
+                    <h6 class="ItemName">Beardo GodFather (Men)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice13.png">
+                    <h6 class="ItemName">Engage (Unisex)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice14.png">
+                    <h6 class="ItemName">BLU Dreams Ajmal (Unisex)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice15.png">
+                    <h6 class="ItemName">Silver & Gold Zara (Men)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice16.png">
+                    <h6 class="ItemName">Luxure Oudh (Women)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice17.png">
+                    <h6 class="ItemName">Zara Red Temptation (Women)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice18.png">
+                    <h6 class="ItemName">SI Giorgio Armani (Women)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice19.png">
+                    <h6 class="ItemName">Wild Stone (men)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice20.png">
+                    <h6 class="ItemName">Zara Seoul (men)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice21.png">
+                    <h6 class="ItemName">Shanaya Non Alcholic Attar (Women)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice22.png">
+                    <h6 class="ItemName">Agent Jane (Women)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice23.png">
+                    <h6 class="ItemName">Jimmy Choo (Women)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-body">
+                    <p class="priceOfItems">$5</p>
+                    <img class="img-fluid" src="assets/img/thirdprice24.png">
+                    <h6 class="ItemName">Versace Eros Pour Femme (men)</h6>
+                    <p class="ItemQuantity">20 ml</p>
+                    <button type="button" class="btn btn-dark" id="AddBTN">ADD</button>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html> 
